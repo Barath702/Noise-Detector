@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Noise Detector</string>
+
+    <string name="channel_listener_name">Listener microphone</string>
+    <string name="channel_listener_desc">Shows when the listener is streaming audio levels.</string>
+    <string name="channel_monitor_name">Controller monitor</string>
+    <string name="channel_monitor_desc">Background connection to the listener device.</string>
+    <string name="channel_alert_name">Noise alerts</string>
+    <string name="channel_alert_desc">High-priority alerts when the level exceeds your threshold.</string>
+
+    <string name="listener_notif_title">Listening &amp; streaming</string>
+    <string name="listener_notif_text">Live: %.1f dB · %d controller(s)</string>
+    <string name="controller_notif_title">Monitoring listener</string>
+    <string name="controller_notif_text">%1$s · %2$.1f dB</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_idle">Idle</string>
+    <string name="alert_notif_title">Noise threshold exceeded</string>
+    <string name="alert_notif_text">Level %1$.1f dB (trigger %2$.1f dB)</string>
+
+    <string name="role_listener">Listener</string>
+    <string name="role_controller">Controller</string>
+    <string name="start_listening">Start listening</string>
+    <string name="stop_listening">Stop listening</string>
+    <string name="live_db">Live level</string>
+    <string name="pair_code_label">Pair code (4 digits)</string>
+    <string name="pair_code_listener_hint">Use the same code on the controller phone (both on the same Wi‑Fi). Optional: direct IP below for troubleshooting.</string>
+    <string name="pair_code_controller_hint">Enter the same 4-digit code as the listener. The app finds the listener on your Wi‑Fi automatically.</string>
+    <string name="random_code">Random code</string>
+    <string name="advanced_ip">Listener IP (optional)</string>
+    <string name="status_searching">Searching on Wi‑Fi…</string>
+    <string name="notif_summary_connected">%1$s — connected</string>
+    <string name="notif_summary_connecting">%1$s — connecting</string>
+    <string name="notif_summary_searching">Code %1$s — searching…</string>
+    <string name="listener_hint">Place this phone where you want to hear activity. Same Wi‑Fi as the controller; pairing uses the code above.</string>
+    <string name="stream_address">Stream address</string>
+    <string name="clients_connected">Controllers connected: %d</string>
+    <string name="no_wifi_ip">No Wi‑Fi IPv4 address — connect to Wi‑Fi</string>
+
+    <string name="controller_hint">Same Wi‑Fi as the listener. Enter the pair code, then Connect. Use IP only if discovery fails.</string>
+    <string name="listener_ip_label">Listener IP (optional)</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="threshold_margin">Threshold above floor</string>
+    <string name="threshold_value">+%.0f dB</string>
+    <string name="alerts_enabled">Alerts on</string>
+    <string name="calibrate">Calibrate silence (2s)</string>
+    <string name="battery_unrestricted">Battery: allow unrestricted</string>
+    <string name="noise_floor">Noise floor</string>
+    <string name="floor_uncalibrated">Not calibrated (using default)</string>
+    <string name="floor_value">%.1f dB (calibrated)</string>
+    <string name="effective_trigger">Alert when above ~%.1f dB</string>
+    <string name="permission_mic">Microphone access is required for the listener role.</string>
+    <string name="permission_notifications">Notifications are needed for alerts on the controller.</string>
+    <string name="grant_permissions">Grant permissions</string>
+</resources>
