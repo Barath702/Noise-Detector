@@ -24,7 +24,7 @@ Real-time sound detection with remote alerts across devices.
 
 ## 📥 Download
 
-[Download APK]([https://github.com/Barath702/Noise-Detector/raw/main/Noise-Detector.apk](https://github.com/Barath702/Noise-Detector/releases/tag/v1.0))
+[Download APK](https://github.com/Barath702/Noise-Detector/releases/tag/v1.0)
 
 ---
 
