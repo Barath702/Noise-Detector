@@ -5,6 +5,7 @@ Noise Detector is a real-time sound monitoring app that lets you detect noise le
 Real-time sound detection with remote alerts across devices.
 
 <p align="center">
+  <img src="SS1.jpg" width="300"/>
   <img src="SS2.jpg" width="300"/>
   <img src="SS3.jpg" width="300"/>
 </p>
